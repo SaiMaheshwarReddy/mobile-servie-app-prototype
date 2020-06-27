@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_container h1 {
+    width: 100%;
+    height: 25vh;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    background-color: rgb(171, 118, 207);
+    background-blend-mode: darken;
+}
+
+.image_container h1 q {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.quote_content {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 101, 173);
+    font-size: 16px;
+}
+
+.quote_content span {
+    padding: 0 30px;
+    color: white;
+}
+
+.content {
+    background-color: rgb(200, 181, 212);
+}
+
+.content section {
+    padding: 30px, 0, 0, 0;
+}
+
+.content li {
+    list-style: disc;
+}
+
+.content section {
+    padding-left: 2%;
+}
+
+.content section li {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.content section h1 {
+    padding-top: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(39, 31, 43);
+    color: white;
+    margin-bottom: 0px;
+}
+
+.footer h1 {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.socialmedia_icons {
+    margin: 20px 0px;
+}
+
+.footer .socialmedia_icons ul li a i {
+    font-size: 40px;
+}
+
+.facebook i {
+    color: rgb(89, 121, 228);
+}
+
+.twitter i {
+    color: rgb(145, 188, 228);
+}
+
+.youtube i {
+    color: rgb(241, 15, 15)
+}
+
+.linkedin i {
+    color: rgb(89, 121, 228);
+}
+
+.footer .socialmedia_icons ul li {
+    list-style: none;
+}
+
+.footer .socialmedia_icons ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.footer .socialmedia_icons ul li a i {
+    animation: animate 2s ease-out 0.5s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0.6);
+        transition: transform 100ms ease-out 0.5s;
+    }
+    50% {
+        transform: scale(1);
+        transition: transform 100ms ease-out 0.5s;
+    }
+    100% {
+        transform: scale(0.6);
+        transition: transform 100ms ease-out 0.5s;
+    }
+}
